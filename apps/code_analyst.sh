@@ -1,0 +1,1 @@
+python /home/jade/Documents/JadeCloud/Works/Aisono/Projects/Workflows/Doing/PycharmProjects/aisono-robosuite/apps/code_analyst.py ./

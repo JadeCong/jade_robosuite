@@ -1,0 +1,18 @@
+<mujoco model="soft_female_torso">
+    <asset>
+        <mesh name="mesh-nude_fem_torso" file="meshes/NudeFemTorso_138k.stl" scale="0.003 0.003 0.003"/>
+        <texture name="tex-skin" type="2d" file="../textures/skin_3.png"/>
+        <material name="mat-skin" reflectance="0.5" texrepeat="1 1" texture="tex-skin" texuniform="true"/>
+    </asset>
+
+    <worldbody>
+        <body>
+            <body name="object" pos="0 -0.95 0.58" quat="0.5 0.5 -0.5 0.5">
+                <geom pos="0 0 0" mesh="mesh-nude_fem_torso" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="60" friction="0.95 0.3 0.1" material="mat-skin" condim="4"/>
+            </body>
+            <site name="bottom_site" rgba="0 0 0 0" size="0.005" pos="0 0 -0.2"/>
+            <site name="top_site" rgba="0 0 0 0" size="0.005" pos="0 0 0.2"/>
+            <site name="horizontal_radius_site" rgba="0 0 0 0" size="0.005" pos="0.5 0.5 0"/>
+        </body>
+    </worldbody>
+</mujoco>

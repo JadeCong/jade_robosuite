@@ -1,0 +1,1 @@
+python ./aisono_example.py

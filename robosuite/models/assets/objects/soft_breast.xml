@@ -1,0 +1,20 @@
+<mujoco model="soft_breast">
+    <asset>
+        <texture name="tex-skin" type="2d" file="../textures/skin_3.png"/>
+        <material name="mat-skin" reflectance="0.5" texrepeat="1 1" texture="tex-skin" texuniform="true"/>
+    </asset>
+
+    <worldbody>
+        <body>
+            <body name="object" pos="0.5 0.5 0.06" quat="0.5 0.5 -0.5 -0.5">
+                <composite prefix="breast" type="ellipsoid" count="10 10 8" spacing="0.02" solrefsmooth="-1000 10">
+                    <geom type="capsule" size="0.0075 0.025" rgba=".8 .2 .1 1" mass="10" friction="0.01 0.005 0.0001" conaffinity="0" contype="1" group="3"/>
+                    <skin texcoord="true" material="mat-skin" rgba=".7 .7 .7 1"/>
+                </composite>
+            </body>
+            <site name="bottom_site" rgba="0 0 0 0" size="0.005" pos="0 0 -0.2"/>
+            <site name="top_site" rgba="0 0 0 0" size="0.005" pos="0 0 0.2"/>
+            <site name="horizontal_radius_site" rgba="0 0 0 0" size="0.005" pos="0.2 0.2 0"/>
+        </body>
+    </worldbody>
+</mujoco>

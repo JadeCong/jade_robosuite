@@ -1,0 +1,20 @@
+MuJoCo Pro Personal license activation key, number 79134, type 6.
+
+Issued to JY Tan <12049011@mail.sustech.edu.cn>.
+
+Expires June 20, 2022.
+
+This file activates MuJoCo Pro on a single computer with id:
+LINUX_59SfrVVirtualf_a4e441aaa3074e0390d65794349Mdwed147
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+f140c0235892b4df3968ce2aaca58b2574e4effd35e85688667b78bafcb94f81
+2abcc7ab542a29ce0d4ad7b20723838945f992155ae4b285627b4969b1d1f849
+51ab7b726c42e86d202468797fd5679b55ee0f1c3855846e9c65478306b4fecb
+2d4403fd8851c5eaf9645621d041fe4211d5ecb11b91b6f5904d72a53f1afd33
+17e8ed3dae5be83c2ad7306cfc5d906ecd434eaae20efac1f3b7dbea1cfc826b
+3eaccca621b5e02e25bf6d20c53e83d1ff18d07e19877ec1e172200b6beb726c
+24d8cd8a95144f4a61b835982014511ab0d4668c3f753062e7be5b8199d80c53
+89cd66c72fbc4779091d274a43a0a7203072d8a71731afac4093325a3c03e83e
